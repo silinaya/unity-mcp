@@ -26,6 +26,7 @@ Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to inte
   *   `manage_scene`: Manages scenes (load, save, create, get hierarchy, etc.).
   *   `manage_asset`: Performs asset operations (import, create, modify, delete, etc.).
   *   `manage_gameobject`: Manages GameObjects: create, modify, delete, find, and component operations.
+  *   `manage_material`: Creates and modifies materials. Allows setting properties like color, float values, and textures, as well as assigning shaders.
   *   `execute_menu_item`: Executes a menu item via its path (e.g., "File/Save Project").
 </details>
 
