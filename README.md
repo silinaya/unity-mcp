@@ -27,6 +27,8 @@ Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to inte
   *   `manage_asset`: Performs asset operations (import, create, modify, delete, etc.).
   *   `manage_gameobject`: Manages GameObjects: create, modify, delete, find, and component operations.
   *   `manage_material`: Creates and modifies materials. Allows setting properties like color, float values, and textures, as well as assigning shaders.
+  *   `manage_ugui`: Creates and manipulates Unity UGUI elements (e.g., Canvas, Button, Text, Image, Panel, InputField, Slider, Toggle). Supports setting RectTransform properties, text content, sprites, colors, and other element-specific attributes.
+  *   `manage_ui_toolkit`: Creates and manipulates Unity UI Toolkit elements (e.g., UIDocument panels, VisualElement, Button, Label, TextField, Toggle, Slider). Supports applying USS classes, inline styles (width, height, color, etc.), setting text, and managing element hierarchy.
   *   `execute_menu_item`: Executes a menu item via its path (e.g., "File/Save Project").
 </details>
 

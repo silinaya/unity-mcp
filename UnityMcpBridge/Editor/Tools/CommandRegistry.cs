@@ -20,7 +20,9 @@ namespace UnityMcpBridge.Editor.Tools
             { "HandleManageAsset", ManageAsset.HandleCommand },
             { "HandleReadConsole", ReadConsole.HandleCommand },
             { "HandleExecuteMenuItem", ExecuteMenuItem.HandleCommand },
-            { "HandleManageMaterial", ManageMaterialHandler.HandleCommand }, // New Entry
+            { "HandleManageMaterial", ManageMaterialHandler.HandleCommand },
+            { "HandleManageUGUI", ManageUGUIHandler.HandleCommand },
+            { "HandleManageUIToolkit", ManageUIToolkitHandler.HandleCommand } // New Entry
         };
 
         /// <summary>
